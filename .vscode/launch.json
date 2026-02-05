@@ -3,22 +3,22 @@
         {
             "type": "swift",
             "request": "launch",
-            "name": "Debug SwiftSandbox",
             "args": [],
-            "cwd": "${workspaceFolder:swift-sandbox}",
-            "preLaunchTask": "swift: Build Debug SwiftSandbox",
+            "cwd": "${workspaceFolder:swift-26}",
+            "name": "Debug SwiftSandbox",
             "target": "SwiftSandbox",
-            "configuration": "debug"
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug SwiftSandbox"
         },
         {
             "type": "swift",
             "request": "launch",
-            "name": "Release SwiftSandbox",
             "args": [],
-            "cwd": "${workspaceFolder:swift-sandbox}",
-            "preLaunchTask": "swift: Build Release SwiftSandbox",
+            "cwd": "${workspaceFolder:swift-26}",
+            "name": "Release SwiftSandbox",
             "target": "SwiftSandbox",
-            "configuration": "release"
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release SwiftSandbox"
         }
     ]
 }
