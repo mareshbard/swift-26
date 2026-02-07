@@ -8,7 +8,9 @@ func a() {
 
 for key in numbers.keys {
     numbers[key]?.sort(by: >)
+    // ordenando do maior p/ menor
 }
 
 print(numbers["Months"] ?? "")
+
 }

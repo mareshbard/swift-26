@@ -23,6 +23,6 @@ print(menu["Espaguete"] ?? "")
 for (produto, preco) in menu { //especificando par
     print("Mercadoria: \(produto)\nPreço: \(preco)")
 }
-a()
+c()
 }
 main()
