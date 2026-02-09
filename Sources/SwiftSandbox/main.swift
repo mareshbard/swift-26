@@ -24,5 +24,8 @@ func main() {
     for (produto, preco) in menu {  //especificando par
         print("Mercadoria: \(produto)\nPreço: \(preco)")
     }
+    print()
+    print("RESULTADO DA FUNÇÃO CHAMADA:")
+    OperacoesBasicas()
 }
 main()
