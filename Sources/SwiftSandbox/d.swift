@@ -29,7 +29,7 @@ func d() {
     let numConvertido = Int(possivelNum)
     // o "!" diz que existe sim um valor no optional e no print some o "Optional"
     // chamamos isso de "force unwrapping" o valor optional
-    var num = numConvertido!
+    let num = numConvertido!
     print(num)
 
     // When you force unwrap a non-nil value,

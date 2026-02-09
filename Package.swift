@@ -10,7 +10,7 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "SwiftSandbox",
-            dependencies: ["Operadores"]
+            dependencies: []
         )
     ],
     swiftLanguageModes: [.v5]
