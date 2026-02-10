@@ -26,6 +26,6 @@ func main() {
     }
     print()
     print("RESULTADO DA FUNÇÃO CHAMADA:")
-    OperacoesBasicas()
+    usandoString()
 }
 main()
