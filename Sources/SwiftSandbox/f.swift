@@ -6,7 +6,9 @@ func usandoString(){
     no final daquela linha, quebra o texto
     """
     print(umaString)
+    print() // só pra dar espaço
     print(textao)
+    print()
 
     let linhasComEspaco = """
     primeira linha
@@ -15,4 +17,17 @@ func usandoString(){
     """
     print(linhasComEspaco)
     
+    print("USANDO UNICODE: ")
+    print()
+
+    let dolar = "\u{24}"
+    print(dolar)
+    let coracao = "\u{2665}"
+    print(coracao)
+    let emojiCoracao = "\u{1F496}"
+    print(emojiCoracao)
+
+    // PARA USAR ASPAS NO TEXTO:
+    let citacao = "\"Hello, World!\" - Leticia"
+    print(citacao)
 }
