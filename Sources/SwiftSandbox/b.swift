@@ -11,7 +11,7 @@ func b() {
 
     // Optional:
 
-    let piString = "3.14"
+    let piString = "314"
     let piNumero = Int(piString) 
     print(piNumero) // Optional(314)
     // pode ou não ter convertido a string p/ int
